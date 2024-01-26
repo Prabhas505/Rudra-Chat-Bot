@@ -80,7 +80,7 @@ EMOJIOS = [
 
 #---------------EMOJIOS---------------#
 
-@rudrachat.on_cmd(["starut", "aistiart"])
+@rudrachat.on_cmd(["start", "aistart"])
 async def start(_, m: Message):
     if m.chat.type == ChatType.PRIVATE:
         accha = await m.reply_text(
